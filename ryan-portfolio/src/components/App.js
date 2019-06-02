@@ -4,6 +4,10 @@ import NavBar from "./layout/NavBar";
 import "./App.css";
 import { BrowserRouter as Router, Route } from "react-router-dom";
 import Footer from "./layout/Footer";
+import Project from "./projects/Project";
+import Professional from "./professional/Professional";
+import Extracurricular from "./extracurricular/Extracurricular";
+import ContactMe from "./contactme/ContactMe";
 
 const App = () => {
 	return (
@@ -11,6 +15,10 @@ const App = () => {
 			<div>
 				<NavBar />
 				<Route exact path="/" component={Landing} />
+				<Project />
+				<Professional />
+				<Extracurricular />
+				<ContactMe />
 				<Footer />
 			</div>
 		</Router>
