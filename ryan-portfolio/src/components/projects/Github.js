@@ -9,7 +9,7 @@ class ProfileGithub extends Component {
 	}
 	componentDidMount() {
 		fetch(
-			`https://api.github.com/users/ryangleason82/repos?per_page=5&sort=created: asc&client_id=f8cc682318f463505d57&client_secret=f8725297461460dd55494580cfd98f339b239f7d`
+			`https://api.github.com/users/ryangleason82/repos?per_page=4&sort=created: asc&client_id=f8cc682318f463505d57&client_secret=f8725297461460dd55494580cfd98f339b239f7d`
 		)
 			.then(res => res.json())
 			.then(data => {

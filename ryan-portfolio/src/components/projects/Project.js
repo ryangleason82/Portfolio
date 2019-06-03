@@ -44,6 +44,20 @@ const Project = () => {
 								normalization, common ML data structures
 							</div>
 						</div>
+						<h3>Video Streaming Site</h3>
+						<div className="ui bulleted list">
+							<div className="item">
+								Created Twitch-like web based application using React and Redux
+							</div>
+							<div className="item">
+								Used OBS (Open Broadcaster Software) and RTMP to allow users to
+								live stream content
+							</div>
+							<div className="item">
+								Utilized Google OAuth for authorization and authentication to
+								protect routes and user information
+							</div>
+						</div>
 						<h3>Server Authentication System</h3>
 						<div className="ui bulleted list">
 							<div className="item">

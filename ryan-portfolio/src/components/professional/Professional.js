@@ -70,7 +70,6 @@ const Professional = () => {
 					</div>
 				</div>
 			</div>
-			<h4>A Little Bit More in Depth</h4>
 		</div>
 	);
 };

@@ -7,47 +7,78 @@ const Extracurricular = () => {
 				<p>Extracurricular Activties</p>
 			</h3>
 
-			<div
-				id="myCarousel"
-				className="carousel slide centered"
-				data-ride="carousel"
-			>
-				<ol className="carousel-indicators">
-					<li data-target="#myCarousel" data-slide-to="0" className="active" />
-					<li data-target="#myCarousel" data-slide-to="1" />
-					<li data-target="#myCarousel" data-slide-to="2" />
-				</ol>
-
-				<div className="carousel-inner">
-					<div className="item active">
-						<img src={require("../img/one.jpg")} alt="Los Angeles" />
-					</div>
-
-					<div className="item">
-						<img src={require("../img/two.jpg")} alt="Chicago" />
-					</div>
-
-					<div className="item">
-						<img src={require("../img/three.jpg")} alt="New York" />
-					</div>
+			<div className="col-md-12">
+				<div className="col-md-4">
+					<img
+						alt="pictur"
+						src={require("../img/two.jpg")}
+						className="img-fluid"
+					/>
 				</div>
 
-				<a
-					className="left carousel-control"
-					href="#myCarousel"
-					data-slide="prev"
-				>
-					<span className="glyphicon glyphicon-chevron-left" />
-					<span className="sr-only">Previous</span>
-				</a>
-				<a
-					className="right carousel-control"
-					href="#myCarousel"
-					data-slide="next"
-				>
-					<span className="glyphicon glyphicon-chevron-right" />
-					<span className="sr-only">Next</span>
-				</a>
+				<div className="col-md-4">
+					<img
+						alt="pictur"
+						src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(98).jpg"
+						className="img-fluid"
+					/>
+				</div>
+
+				<div className="col-md-4">
+					<img
+						alt="pictur"
+						src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(131).jpg"
+						className="img-fluid"
+					/>
+				</div>
+
+				<div className="col-md-4">
+					<img
+						alt="pictur"
+						src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(123).jpg"
+						className="img-fluid"
+					/>
+				</div>
+
+				<div className="col-md-4">
+					<img
+						alt="pictur"
+						src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(118).jpg"
+						className="img-fluid"
+					/>
+				</div>
+
+				<div className="col-md-4">
+					<img
+						alt="pictur"
+						src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(128).jpg"
+						className="img-fluid"
+					/>
+				</div>
+
+				<div className="col-md-4">
+					<img
+						alt="pictur"
+						src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(132).jpg"
+						className="img-fluid"
+					/>
+				</div>
+
+				<div className="col-md-4">
+					<img
+						alt="pictur"
+						src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(115).jpg"
+						className="img-fluid"
+					/>
+				</div>
+
+				<div className="col-md-4">
+					<img
+						alt="pictur"
+						src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(133).jpg"
+						className="img-fluid"
+					/>
+				</div>
 			</div>
 		</div>
 	);
