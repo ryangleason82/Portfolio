@@ -2,7 +2,7 @@ import React from "react";
 
 const ContactMe = () => {
 	return (
-		<div className="container mt-3">
+		<div id="contactme" className="container mt-3">
 			<h3 className="ui horizontal header divider">
 				<p>Contact Me</p>
 			</h3>
