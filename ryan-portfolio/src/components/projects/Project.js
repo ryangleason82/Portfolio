@@ -4,7 +4,7 @@ import ProfileGithub from "./Github";
 const Project = () => {
 	return (
 		<div id="projects" className="container mt-3">
-			<h3 className="ui horizontal header divider">
+			<h3 className="ui horizontal header divider mt-4 mb-4">
 				<p>Projects</p>
 			</h3>
 			<div className="ui">

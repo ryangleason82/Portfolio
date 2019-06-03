@@ -2,9 +2,9 @@ import React from "react";
 
 const Footer = () => {
 	return (
-		<footer className="bg-white text-black mt-3 p-4 text-center">
+		<footer className="bg-white text-black mt-3 p-4 text-center fixed-bottom">
 			Copyright &copy; {new Date().getFullYear()} Ryan Gleason |
-			ryangleason82@gmail.com
+			<a href="mailto:ryangleason82@gmail.com">ryangleason82@gmail.com</a>
 		</footer>
 	);
 };
