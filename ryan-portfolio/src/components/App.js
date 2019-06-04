@@ -2,7 +2,7 @@ import React from "react";
 import Landing from "./layout/Landing";
 import NavBar from "./layout/NavBar";
 import "./App.css";
-import { BrowserRouter as Router, Route } from "react-router-dom";
+import { BrowserRouter as Router } from "react-router-dom";
 import Footer from "./layout/Footer";
 import Project from "./projects/Project";
 import Professional from "./professional/Professional";
@@ -14,7 +14,7 @@ const App = () => {
 		<Router>
 			<div>
 				<NavBar />
-				<Route exact path="/" component={Landing} />
+				<Landing />
 				<Project />
 				<Professional />
 				<Extracurricular />
