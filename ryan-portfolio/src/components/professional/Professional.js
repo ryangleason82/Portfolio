@@ -17,7 +17,7 @@ const Professional = () => {
 							</div>
 							<div className="item">
 								Engineered shell scripts to automate cleaning of disk space to
-								properly maintain healthy server
+								properly maintain healthy servers
 							</div>
 							<div className="item">
 								Implemented Powershell script to enforce uniformity of
