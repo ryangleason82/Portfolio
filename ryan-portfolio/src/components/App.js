@@ -8,6 +8,7 @@ import Project from "./projects/Project";
 import Professional from "./professional/Professional";
 import Extracurricular from "./extracurricular/Extracurricular";
 import ContactMe from "./contactme/ContactMe";
+import AboutMe from "./aboutme/AboutMe";
 
 const App = () => {
 	return (
@@ -15,6 +16,7 @@ const App = () => {
 			<div>
 				<NavBar />
 				<Landing />
+				<AboutMe />
 				<Project />
 				<Professional />
 				<Extracurricular />
