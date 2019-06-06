@@ -6,10 +6,10 @@ const ContactMe = () => {
 			<h3 className="ui horizontal header divider mt-5">
 				<p>Contact Me</p>
 			</h3>
-			<div className="text-center mb-5">
+			<div className="text-center">
 				<a
 					href="mailto:ryangleason82@gmail.com"
-					className="text-center btn btn-lg btn-dark mb-5"
+					className="text-center btn btn-lg btn-dark"
 				>
 					Email Me!
 				</a>
