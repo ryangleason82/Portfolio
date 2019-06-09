@@ -19,12 +19,16 @@ class ImageCard extends Component {
 
 	render() {
 		return (
-			<div style={{ gridRowEnd: `span ${this.state.spans}` }}>
+			<div
+				className="img_wrap"
+				style={{ gridRowEnd: `span ${this.state.spans}` }}
+			>
 				<img
 					ref={this.imageRef}
 					src={require(`../img/extra/${this.props.image.src}`)}
 					alt="hi"
 				/>
+				<div className="img_description">This looks great!</div>
 			</div>
 		);
 	}

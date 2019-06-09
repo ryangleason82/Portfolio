@@ -26,7 +26,7 @@ const Project = () => {
 							</div>
 							<div className="item">
 								Designed front end using newest web technologies such as React,
-								Redux, Material UI and hosted on AWS
+								Redux, Material UI
 							</div>
 						</div>
 						<h3>Machine Learning House Price Predictor</h3>

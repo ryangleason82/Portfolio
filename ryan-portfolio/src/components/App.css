@@ -45,3 +45,18 @@
 	width: 250px;
 	grid-row-end: span 2;
 }
+
+.img-wrap:hover .img_description {
+	visibility: visible;
+	opacity: 1;
+}
+
+.img_wrap {
+	position: relative;
+}
+
+.img_description {
+	position: absolute;
+	color: #fff;
+	visibility: hidden;
+}
