@@ -16,6 +16,10 @@ const Professional = () => {
 								improve performance
 							</div>
 							<div className="item">
+								Reduced latency significantly for end user of large, distributed
+								application being used nationwide
+							</div>
+							<div className="item">
 								Engineered shell scripts to automate cleaning of disk space to
 								properly maintain healthy servers
 							</div>
@@ -23,34 +27,30 @@ const Professional = () => {
 								Implemented Powershell script to enforce uniformity of
 								configuration files in order to reduce potential P1 issues{" "}
 							</div>
-							<div className="item">
-								Rolled out Splunk and Dynatrace monitoring tools across large
-								distributed applications{" "}
-							</div>
 						</div>
 						<h3>Economy League - Force For Good Project - Web Developer</h3>
 						<div className="ui bulleted list">
 							<div className="item">
-								Worked closely with non-profit client to deliver Content
-								Management System website
+								End to end development of non-profit Philadelphia Anchors of
+								Growth and Equity platform
+							</div>
+							<div className="item">
+								Designed layout of website with Balsamiq wireframes during
+								weekly meetings with client
 							</div>
 							<div className="item">
 								Implemented design with custom code in Node JS, Apostrophe
 								framework, MongoDB and Bootstrap
 							</div>
-							<div className="item">
-								Designed layout of website by creating Balsamiq wireframes after
-								various work sessions with the client
-							</div>
 						</div>
 						<h3>JP Morgan Chase & Co. - Software Engineer Intern</h3>
 						<div className="ui bulleted list">
 							<div className="item">
-								Automated tedious process through parsing and web API calls
+								Automated tedious auditing process (ITSM creation) through
+								parsing and web API calls
 							</div>
 							<div className="item">
-								Hosted on internal cloud headlessly to leverage cloud
-								environment
+								Hosted on internal cloud to leverage cloud environment
 							</div>
 							<div className="item">
 								Developed using Python with cloud compliant database integration
