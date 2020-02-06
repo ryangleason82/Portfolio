@@ -9,22 +9,24 @@ import Professional from "./professional/Professional";
 import Extracurricular from "./extracurricular/Extracurricular";
 import ContactMe from "./contactme/ContactMe";
 import AboutMe from "./aboutme/AboutMe";
+import Blog from "./blog/Blog";
 
 const App = () => {
-	return (
-		<Router>
-			<div>
-				<NavBar />
-				<Landing />
-				<AboutMe />
-				<Project />
-				<Professional />
-				<Extracurricular />
-				<ContactMe />
-				<Footer />
-			</div>
-		</Router>
-	);
+  return (
+    <Router>
+      <div>
+        <NavBar />
+        <Landing />
+        <AboutMe />
+        <Professional />
+        <Blog />
+        <Project />
+        <Extracurricular />
+        <ContactMe />
+        <Footer />
+      </div>
+    </Router>
+  );
 };
 
 export default App;
