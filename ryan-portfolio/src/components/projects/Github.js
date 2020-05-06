@@ -26,7 +26,7 @@ class ProfileGithub extends Component {
     const repoItems = repos.map(repo => (
       <div key={repo.id} className="card card-body mb-2">
         <div className="row">
-          <div className="col-md-6">
+          <div className="col-md-6 col-sm-12">
             <h4>
               <a
                 href={repo.html_url}

@@ -8,16 +8,18 @@ const Professional = () => {
       </h3>
       <div className="ui">
         <div className="ui  grid">
-          <div className="twelve wide column">
-            <h3>JP Morgan Chase & Co. - Software Engineer</h3>
+          <div className="col-md-12 col-sm-12">
+            <h3>
+              JP Morgan Chase & Co. - <i>Software Engineer</i> on{" "}
+              <i>Site Reliability Engineering Team </i>
+            </h3>
             <div className="ui bulleted list">
               <div className="item">
-                Optimized database queries using indexing and temp-tables to
-                improve performance
+                Automated deployment pipeline of Control-M changes using Java
+                Spring Boot microservice
               </div>
               <div className="item">
-                Creating Microservice Scheduling app using React, Spring Boot,
-                CassandraDB
+                Created Microservice Scheduling app using React and Spring Boot
               </div>
               <div className="item">
                 Reduced duration of long running job from 9 hours to 3 using
@@ -28,7 +30,9 @@ const Professional = () => {
                 properly maintain healthy servers{" "}
               </div>
             </div>
-            <h3>Medium - Technical Writer/Teacher</h3>
+            <h3>
+              Medium - <i>Technical Writer/Teacher</i>
+            </h3>
             <div className="ui bulleted list">
               <div className="item">
                 Giving back to the developer community by teaching what I’ve
@@ -43,7 +47,9 @@ const Professional = () => {
                 Programming and Codeburst
               </div>
             </div>
-            <h3>Economy League - Force For Good Project - Web Developer</h3>
+            <h3>
+              Economy League - Force For Good Project - <i>Web Developer</i>
+            </h3>
             <div className="ui bulleted list">
               <div className="item">
                 End to end development of non-profit Philadelphia Anchors of
@@ -58,13 +64,6 @@ const Professional = () => {
                 framework, MongoDB and Bootstrap
               </div>
             </div>
-          </div>
-          <div className="four wide column centered ">
-            <img
-              className="ui centered medium circular   image"
-              alt="headshot"
-              src={require("../img/RyanHeadshot.PNG")}
-            />
           </div>
         </div>
       </div>

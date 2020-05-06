@@ -10,6 +10,7 @@ import Extracurricular from "./extracurricular/Extracurricular";
 import ContactMe from "./contactme/ContactMe";
 import AboutMe from "./aboutme/AboutMe";
 import Blog from "./blog/Blog";
+import Certifications from "./certs/Certifications";
 
 const App = () => {
   return (
@@ -19,6 +20,7 @@ const App = () => {
         <Landing />
         <AboutMe />
         <Professional />
+        <Certifications />
         <Blog />
         <Project />
         <Extracurricular />

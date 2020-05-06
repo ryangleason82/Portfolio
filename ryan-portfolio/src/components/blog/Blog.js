@@ -6,7 +6,7 @@ import {
   CardTitle,
   CardSubtitle,
   Row,
-  Col
+  Col,
 } from "reactstrap";
 var moment = require("moment");
 
@@ -18,15 +18,17 @@ const Blog = () => {
     fetch(
       `https://api.rss2json.com/v1/api.json?rss_url=https://medium.com/feed/@ryangleason82`
     )
-      .then(res => res.json())
-      .then(response => {
+      .then((res) => res.json())
+      .then((response) => {
         setMediumData(response.items);
         setIsLoading(false);
       })
-      .catch(err => console.log(err));
+      .catch((err) => console.log(err));
   }, []);
 
-  const newArray = mediumData.slice(0, 6);
+  const newArray = mediumData
+    .filter((article) => article.categories.length > 0)
+    .slice(0, 6);
 
   return (
     <div id="blog" className="container mt-3">
@@ -36,7 +38,7 @@ const Blog = () => {
       {isLoading && <p>Fetching data from Medium!</p>}
 
       <Row>
-        {newArray.map(article => (
+        {newArray.map((article) => (
           <Col md="4" className="mb-3">
             <div key={article.guid}>
               <Card>
@@ -55,6 +57,14 @@ const Blog = () => {
           </Col>
         ))}
       </Row>
+      <div className="text-center mt-4">
+        <a
+          href="https://medium.com/@ryangleason82"
+          className="text-center btn btn-lg btn-dark"
+        >
+          See All Of My Blog Posts
+        </a>
+      </div>
     </div>
   );
 };

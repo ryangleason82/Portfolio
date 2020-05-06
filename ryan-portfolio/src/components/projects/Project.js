@@ -9,7 +9,7 @@ const Project = () => {
       </h3>
       <div className="ui">
         <div className="ui  grid">
-          <div className="eight wide column">
+          <div className="col-md-6 col-sm-12 mb-3 mt-3">
             <h3>Dreamcatcher</h3>
             <div className="ui bulleted list">
               <div className="item">
@@ -60,7 +60,7 @@ const Project = () => {
               </div>
             </div>
           </div>
-          <div className="eight wide column ">
+          <div className="col-md-6 col-sm-12 mt-3">
             <ProfileGithub />
           </div>
         </div>
@@ -71,7 +71,7 @@ const Project = () => {
           href="https://github.com/ryangleason82"
           className="text-center btn btn-lg btn-dark"
         >
-          Check Me Out on Github!
+          Check Me Out on Github
         </a>
       </div>
     </div>
