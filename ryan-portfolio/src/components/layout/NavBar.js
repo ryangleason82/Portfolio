@@ -8,7 +8,7 @@ const NavBar = () => {
           Ryan Gleason
         </a>
         <button
-          className="navbar-toggler"
+          className="navbar-toggler navbar-default"
           type="button"
           data-toggle="collapse"
           data-target="#navbarSupportedContent"
